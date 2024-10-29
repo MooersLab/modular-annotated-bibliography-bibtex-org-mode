@@ -4,19 +4,24 @@
 
 # Template for making an enhanced annotated and illustrated bibliography with BibTeX in LaTeX
 
-## What is this? Annotated bibliography on steroids
+## An annotated bibliography for the 21st Century
 An annotated bibliography summarizes notes about papers being read during a research project.
 It is one of several methods for working with the knowledge gleaned from reading.
+The classic annotated bibliography limits the annotation to one paragraph.
+
+In contrast, our modern approach is to make the annotation as long and detailed as needed for self-study.
+It is also not limited to prose. 
+It can include graphical objects of various types to accelerate recall of the paper's content.
 
 ![Screenshot 2024-10-24 at 1 40 36 PM](https://github.com/user-attachments/assets/edfd7bd6-85db-40e9-9ad0-53ceb1dc3173)
 
 
 
-This modular form enables the reuse of entries in annotated bibliographies for related projects.
+This modular approach enables the reuse of annotations in the modular annotated bibliographies of related projects.
 It has the following enhanced features that the classic annotated bibliography lacks:
 
-- No longer restrained by the annote field in BibTeX.
-- Modular entries for easy reuse in related projects
+- No longer restrained by the `annote` field in the BibTeX entry.
+- Modular annotation for easy reuse in related projects.
 - Images
 - Tables
 - Equations
@@ -63,7 +68,7 @@ Edit the file paths as needed.
 Takes a project ID as the only argument.
 
 Run from the top level of your writing project directory.
-Upon reuse, delete the `cp -R` commands to avoid overwritting exiting files.
+Upon reuse, delete the `cp -R` commands to avoid overwriting existing files.
 
 
 ```bash
@@ -104,11 +109,11 @@ cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/imagesB
 
 ## Usage
 
-1. Create one tex file per reference in the `~/bibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is easier than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
-2. Use the citekey as the argument of the bibentry macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
-3. You can cluster citations by topic and subtopic. You can lower the heading level to subsubsection for the bibilographic entry.
+1. Create one tex file per reference in the `~/bibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
+2. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
+3. You can cluster citations by topic and subtopic. You can lower the heading level to a subsubsection for the bibliographic entry.
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
-5. Compiles with texlive; no extra packages required.
+5. Compiles with *texlive*; no extra packages required.
 
 ## Status: 
 Work in progress.
