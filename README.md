@@ -111,7 +111,7 @@ cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/imagesB
 5. Compiles with texlive; no extra packages required.
 
 ## Status: 
-Ready to use and enjoy!
+Work in progress.
 
 ## Coming soon
 
