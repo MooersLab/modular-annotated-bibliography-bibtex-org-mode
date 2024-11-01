@@ -9,7 +9,7 @@ An annotated bibliography summarizes notes about papers being read during a rese
 It is one of several methods for working with the knowledge gleaned from reading.
 The classic annotated bibliography limits the annotation to one paragraph.
 
-In contrast, our modern approach is to make the annotation as long and detailed as needed for self-study.
+In contrast, our modern approach makes the annotation as long and detailed as needed for self-study.
 It is also not limited to prose. 
 It can include graphical objects of various types to accelerate recall of the paper's content.
 
