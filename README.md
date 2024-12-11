@@ -35,8 +35,8 @@ It has the following enhanced features that the classic annotated bibliography l
 - List of glossary terms used
 - List of mathematical notation
 
-Below is a an example after exportng to PDF. 
-Note the image and the textwrapping of the figure.
+Below is a sample after exportng to PDF. 
+Note the image and the text wrapping of the figure.
 
 ![Screenshot 2024-10-24 at 1 41 09 PM](https://github.com/user-attachments/assets/c1fa04fa-7e62-407a-85f3-628f22defc06)
 
@@ -110,6 +110,10 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
 5. Compiles with *texlive*; no extra packages required.
 
+
+## Status
+
+- still alpha
 
 ## Coming soon
 
