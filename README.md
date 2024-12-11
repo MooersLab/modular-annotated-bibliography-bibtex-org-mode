@@ -54,12 +54,12 @@ The top of the output PDF looks like the following:
 
 The modular bibliographic notes are stored in folders at the top level in the home directory.
 The global.bib file is stored in `~/Documents`.
-Adjust the location and 
+Adjust the location and copy the examples to these folders.
 
 ```bash
 mkdir ~/glossaries
 mkdir ~/bibNotes
-mkdir ~/imagesBlaine # Rename 
+mkdir ~/imagesBlaine # Rename
 ````
 
 ## Bash Function to generate subfolder with required files
@@ -69,7 +69,6 @@ Replace `~/6112MooersLabGitHubLabRepos` with the path to where-ever you download
 Takes a project ID as the only argument.
 
 Run from the top level of your writing project directory.
-Upon reuse, delete the `cp -R` commands to avoid overwriting existing files.
 
 ```bash
 function maborg {
