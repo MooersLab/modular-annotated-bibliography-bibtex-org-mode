@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-latex&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-org-mode&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -65,7 +65,7 @@ mkdir ~/imagesBlaine # Rename
 ## Bash Function to generate subfolder with required files
 
 Edit the file paths as needed.
-Replace `~/6112MooersLabGitHubLabRepos` with the path to where-ever you downloaded the file.
+Replace `~/6112MooersLabGitHubLabRepos` with the path to wherever you downloaded the file.
 Takes a project ID as the only argument.
 
 Run from the top level of your writing project directory.
