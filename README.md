@@ -35,12 +35,15 @@ It has the following enhanced features that the classic annotated bibliography l
 - List of glossary terms used
 - List of mathematical notation
 
+Below is a an example after exportng to PDF. 
+Note the image and the textwrapping of the figure.
+
 ![Screenshot 2024-10-24 at 1 41 09 PM](https://github.com/user-attachments/assets/c1fa04fa-7e62-407a-85f3-628f22defc06)
 
 
 ## Why org-mode?
 
-Org-mode can be thought of as a thin wrapper for LaTeX.
+Org-mode can be considered a thin wrapper around LaTeX that extends it with additional features.
 LaTeX is the gold standard for typesetting scientific documents.
 
 
