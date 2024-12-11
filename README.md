@@ -38,11 +38,10 @@ It has the following enhanced features that the classic annotated bibliography l
 ![Screenshot 2024-10-24 at 1 41 09 PM](https://github.com/user-attachments/assets/c1fa04fa-7e62-407a-85f3-628f22defc06)
 
 
-## Why LaTeX
+## Why org-mode?
 
-It is the gold standard for typesetting scientific documents.
-This template can be used on Overleaf.
-It can also be used collaboratively online in Overleaf.
+Org-mode can be thought of as a thin wrapper for LaTeX.
+LaTeX is the gold standard for typesetting scientific documents.
 
 
 ## PDF of Annotated Bibliography
