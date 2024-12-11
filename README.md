@@ -65,35 +65,29 @@ mkdir ~/imagesBlaine # Rename
 ## Bash Function to generate subfolder with required files
 
 Edit the file paths as needed.
+Replace `~/6112MooersLabGitHubLabRepos` with the path to where-ever you downloaded the file.
 Takes a project ID as the only argument.
 
 Run from the top level of your writing project directory.
 Upon reuse, delete the `cp -R` commands to avoid overwriting existing files.
 
-
 ```bash
-function mabibtex {
-echo "Create a modular annotated bibliography subfolder and populate with required files with project number in the title."
+function maborg {
+echo "Create a modular annotated bibliography (mab) subfolder and populate with required files with project number in the title."
 if [ $# -lt 1 ]; then
   echo 1>&2 "$0: not enough arguments"
-  echo "Usage1: mabibtex projectIndexNumber"
+  echo "Usage1: maborg projectIndexNumber"
   return 2
 elif [ $# -gt 1 ]; then
   echo 1>&2 "$0: too many projectIndexNumber"
-  echo "Usage1: mabibtex projectIndexNumber"
+  echo "Usage1: maborg projectIndexNumber"
   return 2
 fi
 projectID="$1"
-mkdir mabib$1
-cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/compile.sh ./mabib$1/.
-cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/apacannx.bst ./mabib$1/.
-cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/mab0519.bib ./mabib$1/mab$1.bib
-cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/mab0519.tex ./mabib$1/mab$1.tex
-cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/glossaries/glossary.tex ~/glossaries/.
-cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/bibNotes ~/glossary/.
-cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/notation.tex ~/glossary/.
-cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/bibNotes/* ~/bibNotes/.
-cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/imagesBlaine/* ~/imagesBlaine/.
+mkdir mab$1
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/mabib0573.org ./mab$1/.
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/apacannx.bst ./mab$1/.
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/compile.sh ./mab$1/.
 }
 ```
 
@@ -104,7 +98,7 @@ cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/imagesB
 2. Copy one of the bash function and paste into your .bashr or .zshrc file.
 3. source .bashrc
 4. cd project directory
-3. mabibtex <projectID> to create subfolder 
+3. maborg <projectID> to create subfolder 
 
 
 ## Usage
@@ -115,14 +109,10 @@ cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-latex/imagesB
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
 5. Compiles with *texlive*; no extra packages required.
 
-## Status: 
-Work in progress.
 
 ## Coming soon
 
 - Variant for biblatex.
-- Variants for org-mde.
-- Variants for typst.
 
 ## Sources of funding
 
@@ -136,5 +126,7 @@ Work in progress.
 | Version           |  Changes                                                                                                            | Date                      |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
 | 0.1               | Initial commit.                                                                                                     | 2024  October 24          |
+| 0.2               | Customized the bash script to work in the org files.                                                                | 2024  December 11         |
+
 
 # modular-annotated-bibliography-bibtex-org-mode
