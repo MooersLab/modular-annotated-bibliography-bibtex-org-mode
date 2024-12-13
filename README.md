@@ -197,8 +197,8 @@ Org-mode can read LaTeX files.
 
 | Version           |  Changes                                                                                                            | Date                      |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
-| 0.1               | Initial commit.                                                                                                     | 2024  October 24          |
-| 0.2               | Customized the bash script to work in the org files.                                                                | 2024  December 11         |
-
+| 0.1               | Initial commit.                                                                                                                       | 2024  October 24          |
+| 0.2               | Customized the bash script to work in the org files.                                                             | 2024  December 11         |
+| 0.3               | Add conveience functions.                                                                                                     | 2024  December 13         |
 
 # modular-annotated-bibliography-bibtex-org-mode
