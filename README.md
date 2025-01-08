@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-org-mode&message=0.2&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-org-mode&message=0.4&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -200,5 +200,5 @@ Org-mode can read LaTeX files.
 | 0.1               | Initial commit.                                                                                                                       | 2024  October 24          |
 | 0.2               | Customized the bash script to work in the org files.                                                             | 2024  December 11         |
 | 0.3               | Add conveience functions.                                                                                                     | 2024  December 13         |
-
+| 0.4               | Added MIT license.                                                                                                    | 2024  January 7         |
 # modular-annotated-bibliography-bibtex-org-mode
