@@ -47,20 +47,15 @@ Org-mode can be considered a thin wrapper around LaTeX that extends it with addi
 LaTeX is the gold standard for typesetting scientific documents.
 
 
-## PDF of Annotated Bibliography
-When exported to a PDF, the org file reads the BibTeX file with formatting set by the *apacannx.bst* file. 
-The top of the output PDF looks like the following:
-
-
 ## One-time directory creation
 
 The modular bibliographic notes are stored in folders at the top level in the home directory.
-The global.bib file is stored in `~/Documents`.
+The `global.bib` file is stored in `~/Documents`.
 Adjust the location and copy the examples to these folders.
 
 ```bash
 mkdir ~/glossaries
-mkdir ~/bibNotes
+mkdir ~/abibNotes
 mkdir ~/imagesBlaine # Rename
 ````
 
@@ -104,7 +99,7 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 
 ## Usage
 
-1. Create one tex file per reference in the `~/bibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
+1. Create one tex file per reference in the `~/abibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
 2. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
 3. You can cluster citations by topic and subtopic. You can lower the heading level to a subsubsection for the bibliographic entry.
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
@@ -184,7 +179,7 @@ Org-mode can read LaTeX files with the tex file extension.
 
 ## Status
 
-- still alpha
+- still kind of alpha but works in Emacs 29 and 30
 
 ## Coming soon
 
@@ -203,7 +198,7 @@ Org-mode can read LaTeX files with the tex file extension.
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
 | 0.1               | Initial commit.                                                                                                                       | 2024  October 24          |
 | 0.2               | Customized the bash script to work in the org files.                                                             | 2024  December 11         |
-| 0.3               | Add conveience functions.                                                                                                     | 2024  December 13         |
+| 0.3               | Add convenience functions.                                                                                                     | 2024  December 13         |
 | 0.4               | Added MIT license.                                                                                                    | 2024  January 7         |
 | 0.5               | Added link to mooerslab-functions.el.                                                                                 | 2025 February 26        |
 
