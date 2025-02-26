@@ -100,13 +100,13 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 ## Usage
 
 1. Create one tex file per reference in the `~/abibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
-2. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
+2. Use the citekey as the argument of a `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
 3. You can cluster citations by topic and subtopic. You can lower the heading level to a subsubsection for the bibliographic entry.
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
 5. Compiles with *texlive*; no extra packages required.
 
 
-## Convenience functions
+## Convenience functions (superpowers from Elisp)
 
 These functions save time and are great fun to use.
 They can be found in the package `mooerslab-functions.el` found [here](https://github.com/MooersLab/mooerslab-functions-el).
@@ -196,9 +196,9 @@ Org-mode can read LaTeX files with the tex file extension.
 
 | Version           |  Changes                                                                                                            | Date                      |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
-| 0.1               | Initial commit.                                                                                                                       | 2024  October 24          |
-| 0.2               | Customized the bash script to work in the org files.                                                             | 2024  December 11         |
-| 0.3               | Add convenience functions.                                                                                                     | 2024  December 13         |
-| 0.4               | Added MIT license.                                                                                                    | 2024  January 7         |
-| 0.5               | Added link to mooerslab-functions.el.                                                                                 | 2025 February 26        |
+| 0.1               | Initial commit.                                                                                                     | 2024  October 24          |
+| 0.2               | Customized the bash script to work in the org files.                                                                | 2024  December 11         |
+| 0.3               | Add convenience functions.                                                                                          | 2024  December 13         |
+| 0.4               | Added MIT license.                                                                                                  | 2025  January 7           |
+| 0.5               | Added link to mooerslab-functions.el.                                                                               | 2025 February 26          |
 
