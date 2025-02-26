@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-org-mode&message=0.4&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-org-mode&message=0.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
