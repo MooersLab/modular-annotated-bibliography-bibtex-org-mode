@@ -113,9 +113,14 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 
 ## Convenience functions
 
+These functions save time and are great fun to use.
+They can be found in the package `mooerslab-functions.el` found [here](https://github.com/MooersLab/mooerslab-functions-el).
+You can use straight or use-package to load these functions directly from GitHub.
+
+
 ### get-citekeys-from-bibtex-file
 
-Fetch a list of cite keys in a bibtex file and insert the list at the cursor in the current buffer.
+Fetch a list of cite keys in a Bibtex file and insert the list at the cursor in the current buffer.
 
 ```elisp
 ;;; get-citekeys-from-bibtex-file
@@ -143,8 +148,9 @@ Fetch a list of cite keys in a bibtex file and insert the list at the cursor in 
       (insert formatted-citekeys "\n"))))
 ```
 
-Use the above list to generate section headings with the cursor, create a corresponding tex file in ~/abibNotes, and open the tex file in a new buffer. 
-Org-mode can read LaTeX files.
+### wrap-citekey-and-create-tex-file
+Use the above list of citekeys or new citekeys found during further reading to generate section headings with the cursor, create a corresponding `tex` file in the `~/abibNote`s folder, and open the `tex` file in a new buffer. 
+Org-mode can read LaTeX files with the tex file extension.
 
 ```elisp
 ;;; wrap-citekey-and-create-tex-file
@@ -173,8 +179,6 @@ Org-mode can read LaTeX files.
         ;; Open the .tex file in a new buffer  
         (find-file tex-file-path)  
         (message "Replaced citekey, created .tex file, and opened it: %s" tex-file-path)))))
-
-
 ```
 
 
