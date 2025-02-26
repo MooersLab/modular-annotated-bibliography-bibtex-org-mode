@@ -205,4 +205,5 @@ Org-mode can read LaTeX files with the tex file extension.
 | 0.2               | Customized the bash script to work in the org files.                                                             | 2024  December 11         |
 | 0.3               | Add conveience functions.                                                                                                     | 2024  December 13         |
 | 0.4               | Added MIT license.                                                                                                    | 2024  January 7         |
-# modular-annotated-bibliography-bibtex-org-mode
+| 0.5               | Added link to mooerslab-functions.el.                                                                                 | 2025 February 26        |
+
