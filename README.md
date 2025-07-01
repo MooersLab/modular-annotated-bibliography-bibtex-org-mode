@@ -91,16 +91,16 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 ## Installation
 
 1. git clone this project to your software directory
-2. Copy one of the bash function and paste into your .bashr or .zshrc file.
-3. source .bashrc
+2. Copy one of the bash function and paste into your `.bashrc` or `.zshrc` file.
+3. `source .bashrc`
 4. cd project directory
 3. maborg <projectID> to create subfolder 
 
 
 ## Usage
 
-1. Create one tex file per reference in the `~/abibNotes folder`. Use the supplies examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
-2. Use the citekey as the argument of a `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
+1. Create one tex file per reference in the `~/abibNotes folder`. Use the supplied examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is more straightforward than text-wrapping tables. Skip text-wrapping if it is too tedious at this time. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
+2. Use the citekey as the argument of a `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF. The bibentry package has to be installed in your distribution of LaTeX for this work correctly.
 3. You can cluster citations by topic and subtopic. You can lower the heading level to a subsubsection for the bibliographic entry.
 4. Compile to HTML to enjoy in a web browser. Compile to PDF to edit while traveling or away from the computer.
 5. Compiles with *texlive*; no extra packages required.
@@ -109,8 +109,8 @@ cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-bibtex-org-mode/
 ## Convenience functions (superpowers from Elisp)
 
 These functions save time and are great fun to use.
-They can be found in the package `mooerslab-functions.el` found [here](https://github.com/MooersLab/mooerslab-functions-el).
-You can use straight or use-package to load these functions directly from GitHub.
+They can be found in the Emacs Lisp package `mooerslab-functions.el` found [here](https://github.com/MooersLab/mooerslab-functions-el).
+You can use `straight` or `use-package` to load these functions directly from GitHub.
 
 
 ### get-citekeys-from-bibtex-file
